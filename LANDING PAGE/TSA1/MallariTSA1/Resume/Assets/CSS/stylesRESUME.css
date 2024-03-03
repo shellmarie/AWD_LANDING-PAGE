@@ -1,0 +1,56 @@
+body { 
+    font-family: 'Times New Roman', Times, serif; 
+    background-color: beige; 
+    color: black; 
+    margin: 10; 
+    padding: 5;        
+} 
+
+#resume-container {
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button { 
+    background-color: rgb(129, 85, 28); 
+    color: black; 
+    padding: 10px 20px; 
+    font-size: 10px; 
+    border: none; 
+    cursor: pointer;
+    text-align: center; 
+} 
+
+button:hover { 
+    background-color: lightgoldenrodyellow; 
+} 
+
+img { 
+    max-width: 20%; 
+    height: max-content; 
+    border-radius: 50%; 
+    margin-top: 20px;
+    text-align: center; 
+} 
+
+h1, h2, h3, h4, h5 { 
+    color: rgb(129, 85, 28); 
+} 
+
+header {
+    color: rgb(129, 85, 28);
+    text-align: center;
+    padding: 10px 0;
+}
+
+ul { 
+    list-style: none; 
+    padding: 0; 
+} 
+
+li { 
+    margin-bottom: 10px; 
+} 
