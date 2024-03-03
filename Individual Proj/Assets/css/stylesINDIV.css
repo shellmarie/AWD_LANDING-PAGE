@@ -1,0 +1,78 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #294B29;
+}
+
+header {
+    background-color: #50623A;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #DBE7C9;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input,
+button {
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#transactions {
+    list-style:georgian;
+    padding: 0;
+}
+
+.transaction {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 8px 0;
+}
+
+#totalExpenses p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+
+#remainingBalance {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#remainingBalance p {
+    font-size: 1.2em;
+    font-weight: bold;
+}
