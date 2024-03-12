@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 150px;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.day-button {
+    cursor: pointer;
+}
+
+#box-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+}
+
+#box {
+    width: 400px; 
+    height: 400px; 
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(0);
+    border: 10px solid; 
+    background-color: white; 
+    transition: transform 0.5s, border-color 1s;
+}
+
+
+.hidden {
+    display: none;
+}
