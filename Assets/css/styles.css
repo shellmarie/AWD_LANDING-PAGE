@@ -1,0 +1,70 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Apply Roboto font to the body */
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.pinimg.com/736x/c6/f6/91/c6f691da74c3b637435b1e14099edc49.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  header {
+    background-image: url('https://i.pinimg.com/736x/c6/f6/91/c6f691da74c3b637435b1e14099edc49.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  #projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .project {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .project:hover {
+    transform: scale(1.05);
+  }
+  
+  .project h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif; /* Apply Roboto font to project titles */
+  }
+  
+  .project p {
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif; /* Apply Roboto font to project descriptions */
+  }
+  
+  .project .view-project {
+    margin-top: auto;
+  }
+  
+  .project .view-project a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .project img {
+    width: 100%; /* Ensure the image fills its container */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover container */
+  }
+  
